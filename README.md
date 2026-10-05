@@ -43,8 +43,8 @@ The complex modulus is evaluated with the convention
 
 $$
 \widetilde G(q,\omega)=i\omega\widehat\zeta(q,s=i\omega),
-\qquad G'=\operatorname{Re}\widetilde G,
-\qquad G''=\operatorname{Im}\widetilde G.
+\qquad G'={\rm Re}\widetilde G,
+\qquad G''={\rm Im}\widetilde G.
 $$
 
 The numerical inverse Laplace transforms use mpmath's Talbot method with 50 decimal digits. The time-domain plots show the regular part of the kernel; the instantaneous `eta_par * delta(t)` contribution is not displayed. A grid point at `t = 0` is evaluated at `1e-14`.
