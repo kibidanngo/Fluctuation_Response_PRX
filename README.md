@@ -118,10 +118,10 @@ The plotted quantity is the smallest eigenvalue of
 $$
 \widetilde S(q,\omega)=\widehat P(q,i\omega)+\widehat P(q,i\omega)^\dagger,
 \qquad
-\widehat P=g^{-1/2}\widehat\psi\,g^{-1/2},
+\widehat P=g^{-1/2}\widehat\psi g^{-1/2},
 $$
 
-using Eqs. (F47)–(F49). It is the eigenvalue of the covariance-normalized spectrum itself, without any further division by its diagonal entries.
+using Eqs. (F47)–(F49). 
 
 ## Realizability
 
