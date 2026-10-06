@@ -244,6 +244,6 @@ for q in q_targets:
     plot_Gprime_many_eps_for_q(q, eps_values, which='zeta')
     plot_Gdoubleprime_many_eps_for_q(q, eps_values, which='zeta')
 
-    # If you also want Lambda:
+    # If we also want Lambda:
     # plot_Gprime_many_eps_for_q(q, eps_values, which='Lambda')
     # plot_Gdoubleprime_many_eps_for_q(q, eps_values, which='Lambda')

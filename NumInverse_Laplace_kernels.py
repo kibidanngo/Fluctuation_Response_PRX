@@ -209,6 +209,7 @@ def Upsilon_num_eps(t, q, eps_val, eps0=1e-14, method='talbot'):
 # =====================================================
 # These are only used if NORMALIZE = True.
 
+
 def zeta_c_eps(eps_val):
     return -eps_val * kappaII * nu**2 / lam
 
