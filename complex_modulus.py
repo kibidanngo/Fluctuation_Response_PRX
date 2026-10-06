@@ -11,7 +11,7 @@ from pathlib import Path
 
 import numpy as np
 import matplotlib.pyplot as plt
-import mpmath as mp  # (not used here, but kept since you had it)
+import mpmath as mp  
 
 # ---------------- physical parameters ----------------
 rho0     = 5.0     # mass density
