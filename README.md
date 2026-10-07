@@ -83,7 +83,7 @@ The numerical inverse Laplace transforms use mpmath's Talbot method with 50 deci
 
 The revised labels and unchanged numerical values are consistent because the manuscript calculations use `lam = xi_mu = eta_par = 1`. Some plotting operations rely on these unit choices: the time-domain scripts plot the raw regular kernel, `q_dependence_G_zeta.py` plots the raw moduli, and the Fig. A1 script plots the raw eigenvalue of `S`. In these units, they equal the dimensionless quantities in the table above. Likewise, some coordinates or titles use the numerical physical variables directly.
 
-If changing the unit parameters, apply the scaling to the data and coordinates explicitly: plot `lam * t`, `omega / lam`, `q * xi_mu`, `-zeta / (eta_par * lam)`, the moduli divided by `eta_par * lam`, and `lam * lambda_min(S)`, as appropriate. To retain the same dimensionless sampling points, evaluate at `t = tau / lam`, `omega = lam * Omega`, and `q = Q / xi_mu`, where `tau`, `Omega`, and `Q` are the desired scaled coordinates. Changing the parameter values or labels alone is insufficient.
+If changing the unit parameters, apply the scaling to the data and coordinates explicitly: plot `lam * t`, `omega / lam`, `q * xi_mu`, `-zeta / (eta_par * lam)`, the moduli divided by `eta_par * lam`, and `lam * lambda_min(S)`, as appropriate. Changing the parameter values or labels alone is insufficient.
 
 ## Reproducing Fig. 1
 
