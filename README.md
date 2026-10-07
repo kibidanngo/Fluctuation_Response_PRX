@@ -49,7 +49,7 @@ The revised manuscript uses the following plotted quantities:
 | Fig. 1(b) | $q\xi_\mu$, at $\lambda t=1$ | $-\zeta(q,t)/(\eta^\parallel\lambda)$, regular part only |
 | Fig. 2(a,b) | $\omega/\lambda$ | $\widetilde G'/(\eta^\parallel\lambda)$ and $\widetilde G''/(\eta^\parallel\lambda)$ |
 | Fig. 2(c) | $q\xi_\mu$, at $\omega/\lambda=1$ | $\widetilde G'/(\eta^\parallel\lambda)$ and $\widetilde G''/(\eta^\parallel\lambda)$ |
-| Fig. A1 | $\omega/\lambda$ | $\lambda_{\min}[\lambda\widetilde{\mathbf S}(q,\omega)]$ |
+| Fig. A1 | $\omega/\lambda$ | $\Lambda_{\min}[\lambda\widetilde{\mathbf S}(q,\omega)]$ |
 
 ### Numerical parameter values
 
@@ -160,11 +160,11 @@ $$
 using Eqs. (F47)–(F49). This spectrum has units of time. The plotted dimensionless quantity, denoted by `lambda_min` on the vertical axis, is
 
 $$
-\lambda_{\min}\left[\lambda\widetilde{\mathbf S}(q,\omega)\right]
-=\lambda\times \lambda_{\min}\left[\widetilde{\mathbf S}(q,\omega)\right].
+\Lambda_{\min}\left[\lambda\widetilde{\mathbf S}(q,\omega)\right]
+=\lambda\times \Lambda_{\min}\left[\widetilde{\mathbf S}(q,\omega)\right].
 $$
 
-Here $\lambda>0$ is the chemical relaxation rate, whereas $\lambda_{\min}$ denotes the smallest eigenvalue. The additional factor of $\lambda$ makes the spectrum dimensionless and does not change the signs of its eigenvalues. Its numerical value is unchanged for the supplied `lam = 1`.
+Here $\lambda>0$ is the chemical relaxation rate, whereas $\Lambda_{\min}$ denotes the smallest eigenvalue. The additional factor of $\lambda$ makes the spectrum dimensionless and does not change the signs of its eigenvalues. Its numerical value is unchanged for the supplied `lam = 1`.
 
 ## Realizability
 
