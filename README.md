@@ -33,7 +33,7 @@ a=\frac{\eta^\parallel}{\rho_0\lambda\xi_\mu^2}=0.2,
 b=\frac{\kappa_{II}\nu^2}{\rho_0\lambda^2\xi_\mu^2}=0.072,
 $$
 
-together with the reciprocity-breaking parameter $\varepsilon$ and the scaled wave number, time, or frequency. The factor $\xi_\mu^2$ in the denominator of $b$ is required for it to be dimensionless. Here $a$ and $b$ denote parameter combinations, not additional script inputs.
+together with the reciprocity-breaking parameter $\varepsilon$ and the scaled wave number, time, or frequency. 
 
 Fig. A1 additionally depends on the dimensionless covariance ratio
 
