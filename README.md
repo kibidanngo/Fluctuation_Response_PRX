@@ -71,8 +71,8 @@ The complex modulus is evaluated with the convention
 
 $$
 \widetilde G(q,\omega)=i\omega\widehat\zeta(q,s=i\omega),
-\qquad \widetilde G'=\operatorname{Re}\widetilde G,
-\qquad \widetilde G''=\operatorname{Im}\widetilde G.
+\qquad \widetilde G'={\rm Re}\widetilde G,
+\qquad \widetilde G''={\rm Im}\widetilde G.
 $$
 
 For $\varepsilon=0$, $\widehat\zeta=\eta^\parallel$, so $\widetilde G'=0$ and $\widetilde G''=\omega\eta^\parallel$. For finite $\varepsilon$, the storage modulus vanishes as $\omega\to0$ at fixed nonzero $q$.
