@@ -161,7 +161,7 @@ using Eqs. (F47)–(F49). This spectrum has units of time. The plotted dimension
 
 $$
 \lambda_{\min}\left[\lambda\widetilde{\mathbf S}(q,\omega)\right]
-=\lambda\,\lambda_{\min}\left[\widetilde{\mathbf S}(q,\omega)\right].
+=\lambda\times \lambda_{\min}\left[\widetilde{\mathbf S}(q,\omega)\right].
 $$
 
 Here $\lambda>0$ is the chemical relaxation rate, whereas $\lambda_{\min}$ denotes the smallest eigenvalue. The additional factor of $\lambda$ makes the spectrum dimensionless and does not change the signs of its eigenvalues. Its numerical value is unchanged for the supplied `lam = 1`.
@@ -183,10 +183,3 @@ $$
 
 All manuscript epsilon values from 0.1 through 2.0 satisfy this condition; its largest value over that interval is 0.81. If changing parameters, check the full realizability condition rather than only the eigenvalues at the displayed wave numbers.
 
-## Citation
-
-The v1.0.2 software release is archived on [Zenodo](https://doi.org/10.5281/zenodo.23197192):
-
-Ryota Takaki (2026), *kibidanngo/Fluctuation_Response_PRX: Fluctuation-Response Theory of Non-Equilibrium Complex Fluids*, version v1.0.2, computer software, Zenodo. DOI: [10.5281/zenodo.23197192](https://doi.org/10.5281/zenodo.23197192).
-
-When citing a later archived release, use the version and DOI of the release actually used. An existing Zenodo archive is not updated by subsequent changes to the repository or this README.
