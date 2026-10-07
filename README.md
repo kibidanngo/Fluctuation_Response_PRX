@@ -160,8 +160,8 @@ $$
 using Eqs. (F47)–(F49). This spectrum has units of time. The plotted dimensionless quantity, denoted by `lambda_min` on the vertical axis, is
 
 $$
-\lambda_{\min}\!\left[\lambda\widetilde{\mathbf S}(q,\omega)\right]
-=\lambda\,\lambda_{\min}\!\left[\widetilde{\mathbf S}(q,\omega)\right].
+\lambda_{\min}\left[\lambda\widetilde{\mathbf S}(q,\omega)\right]
+=\lambda\,\lambda_{\min}\left[\widetilde{\mathbf S}(q,\omega)\right].
 $$
 
 Here $\lambda>0$ is the chemical relaxation rate, whereas $\lambda_{\min}$ denotes the smallest eigenvalue. The additional factor of $\lambda$ makes the spectrum dimensionless and does not change the signs of its eigenvalues. Its numerical value is unchanged for the supplied `lam = 1`.
