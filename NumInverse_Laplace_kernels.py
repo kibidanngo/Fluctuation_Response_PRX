@@ -270,7 +270,7 @@ for q in q_targets:
             ylab = r'$\zeta(q,t)/\zeta_c(\varepsilon)$'
         else:
             y = -np.real(z_arr)
-            ylab = r'$-\zeta(q,t)$'
+            ylab = r'$-\zeta(q,t)/(\eta^\parallel \lambda)$'
 
         plt.plot(
             t_vals, y,

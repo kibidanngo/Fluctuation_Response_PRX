@@ -22,7 +22,7 @@ bar_rho = 1.0
 
 # Choose ONE q*xi_mu for each run, as in the original code.
 qxi = 0.1
-omega_fixed = np.logspace(-3, 1, 600)
+omega_fixed = np.logspace(-3, 2, 600)
 eps_grid = np.linspace(0.1, 2.0, 30)
 
 # Original single-panel dimensions and font sizes.
@@ -95,7 +95,7 @@ def plot_fig_A1():
             ax.semilogx(omega_fixed, eigenvalues, color=cmap(norm(eps)),
                         linewidth=LINE_WIDTH, alpha=0.9)
 
-        ax.set_xlabel(r"$\omega$")
+        ax.set_xlabel(r"$\omega/\lambda$")
         ax.set_ylabel(r"$\lambda_{\rm min}$")
         ax.set_title(rf"$q\xi_\mu={qxi:g},\ \bar{{\rho}}={bar_rho:g}$")
         ax.grid(True, which="both", alpha=0.3)

@@ -22,7 +22,7 @@ lam = 1.0
 xi_mu = 1.0
 kappaII = 1.0
 nu = 0.6
-eps = 2.0  # Onsager reciprocity parameter
+eps = 0.1  # Onsager reciprocity parameter
 
 mp.mp.dps = 50
 
@@ -152,7 +152,7 @@ if QXI_LOG:
 plt.xlabel(r"$q\xi_\mu$", fontsize=30, labelpad=16)
 plt.tick_params(axis="both", which="both", labelsize=30)
 plt.tick_params(axis="x", which="both", pad=6)
-plt.ylabel(r"$-\zeta(q,t)$", fontsize=30)
+plt.ylabel(r"$-\zeta(q,t)/(\eta^\parallel \lambda)$", fontsize=30)
 plt.title(rf"$\epsilon={eps}$, {lab_zeta}")
 plt.grid(alpha=0.3)
 plt.tight_layout()
